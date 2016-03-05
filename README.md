@@ -1,2 +1,2 @@
-# andrei-dn.github.io
-Medicover website test
+# medicover
+Medicover - Frontend 
