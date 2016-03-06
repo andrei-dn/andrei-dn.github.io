@@ -1,0 +1,40 @@
+
+body {
+  font-family: $HumanistBold;
+} 
+
+.contain {
+	margin: 0 $marginPage;
+} 
+
+/* slider - for now, only on homepage */
+.fullsize-slider { 
+	height: 100vh;
+    overflow: hidden;
+    position: relative; 
+	padding-top: scaling(191px);
+	padding-bottom: scaling(80px);
+
+
+    .owl-controls {
+	    bottom: scaling(80px) + 5px;
+	    text-align: center;
+	    z-index: 20;
+	    position: absolute;
+	    left: 50%;
+	    width: 120px;
+	    margin-left: -60px;
+
+	    .owl-page span {
+	    	width: scaling(25px);
+	    	height: scaling(25px);
+	    	background: #fff;
+	    	opacity: 0.9;
+	    }
+
+	    .owl-page.active span {
+	    	background: $mainClr;
+	    	opacity: 0.9;
+	    }
+    }
+}

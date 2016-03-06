@@ -1,0 +1,27 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+
+/* fonts */
+@import "inc/georgio.scss";
+@import "inc/humanistbold.scss";
+@import "inc/humanistroman.scss";
+/* fonts-end */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc; 
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* partitive */
+@import "inc/_variables.scss";
+@import "inc/_functions.scss";
+@import "inc/_base.scss";
+@import "inc/_header.scss";
+@import "inc/_footer.scss";
+/* partitive-end */
