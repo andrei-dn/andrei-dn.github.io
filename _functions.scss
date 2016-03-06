@@ -1,0 +1,17 @@
+@function cmyk($c, $m, $y, $k) {
+
+    $c: $c / 100;
+    $m: $m / 100;
+    $y: $y / 100;
+    $k: $k / 100;
+
+    $r: 255 * (1 - $c) * (1 - $k);
+    $g: 255 * (1 - $m) * (1 - $k);
+    $b: 255 * (1 - $y) * (1 - $k);
+
+    @return rgb($r, $g, $b);
+
+}
+@function scaling($vel) { 
+   	@return $vel * $scaleVar;
+}

@@ -1,0 +1,11 @@
+
+@font-face {
+  font-family: 'Humanist-Roman';
+  src: url(#{$icon-font-path}humanistroman/Humanist777BT-RomanB.eot?#iefix) format('embedded-opentype'),  
+  		url(#{$icon-font-path}humanistroman/Humanist777BT-RomanB.otf)  format('opentype'),
+	     url(#{$icon-font-path}humanistroman/Humanist777BT-RomanB.woff) format('woff'), 
+	     url(#{$icon-font-path}humanistroman/Humanist777BT-RomanB.ttf)  format('truetype'), 
+	     url(#{$icon-font-path}humanistroman/Humanist777BT-RomanB.svg#Humanist777BT-RomanB) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
